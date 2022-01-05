@@ -1,0 +1,17 @@
+<div class="container">
+  <div><button class="arrowBtn" (click)="previousImage()"><</button></div>
+  <div class="card" (click)="showProfile(cardData)">
+    <div>
+      <img src="{{cardData.image}}">
+      <h4>{{cardData.name}}</h4>
+      <p>{{cardData.information}}</p>
+    </div>
+    <div class="button-container">
+      <button class="btn" (click)="showProfile(cardData)">Yes</button>
+      <button class="btn" style="border: 2px solid red">No</button>
+    </div>
+  </div>
+  <div><button class="arrowBtn" (click)="nextImage()">></button></div>
+</div>
+
+

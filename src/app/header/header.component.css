@@ -1,0 +1,14 @@
+.nav-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-header > div{
+  margin: 15px;
+  font-weight: 900;
+  font-family: "Book Antiqua";
+}
+.active{
+color: palegoldenrod;
+  font-size: 20px;
+}

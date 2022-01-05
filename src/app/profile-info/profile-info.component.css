@@ -1,0 +1,48 @@
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card{
+  display: flex;
+  flex-flow: column wrap;
+  width: 27vw;
+  height: auto;
+  background-color: whitesmoke;
+  border-radius: 35px;
+}
+.card img{
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  width: 100%;
+  height:250px;
+}
+.card h4{
+  color: black;
+  font-family:Arial Black
+}
+.card p{
+  color: black;
+  font-family:Lucida Sans Unicode;
+}
+.button-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.btn{
+  font-family: Arial;
+  color: black;
+  font-size: 14px;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  height: 40px;
+}
+.btn:hover{
+  background-color: orange;
+}
+
+

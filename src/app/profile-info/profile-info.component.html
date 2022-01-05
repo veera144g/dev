@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="card">
+    <div>
+      <img src="{{cardData.image}}">
+      <h4>{{cardData.name}}</h4>
+      <p>{{cardData.information}}</p>
+    </div>
+
+    <div class="button-container">
+      <button class="btn" mat-raised-button color="accent" (click)="onShortlist()">short-listed</button>
+      <button class="btn" (click)="like()"  mat-raised-button color="primary">Like</button>
+      <button class="btn" (click)="dislike()"  mat-raised-button color="warn">Dislike</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+
